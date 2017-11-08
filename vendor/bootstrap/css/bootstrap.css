@@ -5713,11 +5713,11 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 .bg-light {
-  background-color: white !important;
+  background-color: #f8f9fa !important;
 }
 
 a.bg-light:focus, a.bg-light:hover {
-  background-color: white !important;
+  background-color: #dae0e5 !important;
 }
 
 .bg-dark {
