@@ -212,11 +212,11 @@
       </section>
 
 
-      <section class="bg-light" id="portfolio">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h2 class="mb-5">Portfolio</h2>
             <h3 class="section-subheading text-muted">Featured Projects</h3>
           </div>
         </div>
@@ -303,17 +303,17 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div>
-          <h3>Contact</h3>
+          <h2 class="mb-5">Contact</h2>
           <fieldset>
             <form action="https://formspree.io/carr.oconnor@outlook.com"
-            method="POST">
-            <p>Name:</p><input type="text" name="name" placeholder="Name">
+            method="POST" id="form1">
+            <p>Name:</p><input id="namebox" type="text" name="name" placeholder="Name">
             <br/>
             <br/>
-            <p>Email:</p><input type="email" name="_replyto" placeholder="Email">
+            <p>Email:</p><input id="emailbox" type="email" name="_replyto" placeholder="Email">
             <br/>
             <br/>
-            <p>Details:</p><input type="text" name="moreinfo" placeholder="Details">
+            <p>Details:</p><textarea rows="8" cols="60" placeholder="Details"></textarea>
             <br/>
             <br/>
             <input type="submit" value="Send">
